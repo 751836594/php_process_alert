@@ -1,5 +1,5 @@
 <?php
-
+namespace PhpProcessAlert;
 /**
  * Created by PhpStorm.
  * User: steven
@@ -8,5 +8,8 @@
  */
 class Alert
 {
-
+    public function demo()
+    {
+        return 1;
+    }
 }
