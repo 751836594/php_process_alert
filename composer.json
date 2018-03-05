@@ -1,22 +1,19 @@
 {
-  "name": "alert/php_process_alert",
-  "description": "监控php运行状态并且发送错误报告",
-  "license": "MIT",
-  "keywords": ["php","alert","process"],
-  "version": "1.0.0",
-  "authors": [
-    {
-      "name": "Steven Lu",
-      "email": "751836594@qq.com"
+    "name": "751836594/php_process_alert",
+    "description": "监控php运行状态并且发送错误报告",
+    "authors": [
+        {
+            "name": "Steven Lu",
+            "email": "751836594@qq.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpProcessAlert\\": "src/PhpProcessAlert"
+        }
     }
-  ],
-  "require": {
-    "php": ">=5.5.0"
-  },
-
-  "autoload": {
-    "psr-4": {
-      "PhpProcessAlert\\": "src/PhpProcessAlert"
-    }
-  }
 }
