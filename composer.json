@@ -7,7 +7,8 @@
             "email": "751836594@qq.com"
         }
     ],
-    "minimum-stability": "dev",
+    "type": "project",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=5.3.0"
     },
